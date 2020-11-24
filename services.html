@@ -1,27 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Ascent Club - Services</title>
-</head>
-<body>
-    <!-- navbar section -->
-    <nav class="navbar">
-        <a href="/" class="navbar_logo">ASCENT CLUB</a>
-        <div class="navbar_toggle" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/61e4ae00a1.js" crossorigin="anonymous"></script>
+        <title>Ascent Club</title>
+    </head>
+    <body>
+        <!-- navbar section -->
+        <nav class="navbar">
+            <a href="/" class="navbar_logo">ASCENT CLUB</a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="navbar_menu">
+                <a href="/" class="navbar_link">Home</a>
+                <a href="./services.html" class="navbar_link">Services</a>
+                <a href="./plans.html" class="navbar_link">Plans</a>
+                <a href="./team.html" class="navbar_link">Team</a>
+            </div>
+        </nav>
+        <!-- hero section -->
+        <div class="hero">
+            <div class="hero_content">
+                <h1 class="hero-animation">Club Associates</h1>
+                <p class="hero-animation">Join Now for $29!</p>
+                <a href="/" class="button hero-animation">Get Started</a>
+            </div>    
         </div>
-        <div class="navbar_menu">
-            <a href="/" class="navbar_link">Home</a>
-            <a href="./services.html" class="navbar_link">Services</a>
-            <a href="./plans.html" class="navbar_link">Plans</a>
-            <a href="./team.html" class="navbar_link">Team</a>
+        <!-- services section -->
+        <div class="services">
+            <div class="services_container">
+                <div>
+                    <p class="topline services-animation">Features</p>
+                    <h1 class="services_heading services-animation">What we offer</h1>
+                    <div class="services_features">
+                        <p class="services_feature services-animation">
+                            <i class="fas fa-hiking"></i>Group Rock Climbing Classes
+                        </p>
+                        <p class="services_feature services-animation">
+                            <i class="fas fa-hiking"></i>Personal Rock Climbing Classes
+                        </p>
+                        <p class="services_feature services-animation">
+                            <i class="fas fa-hiking"></i>Group Rock Climbing Classes
+                        </p>
+                        <p class="services_feature services-animation">
+                            <i class="fas fa-hiking"></i>Personal Ice Climbing Classes
+                        </p>
+                        <p class="services_feature services-animation">
+                            <i class="fas fa-hiking"></i>Group Ice/Rock Climbing Classes
+                        </p>
+                        <p class="services_feature services-animation">
+                            <i class="fas fa-hiking"></i>Personal Ice/Rock Climbing Classes
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./images/services-image.jpg" alt="Mountaineers" class="services_img img-animation">
+                </div>
+            </div>
         </div>
-    </nav>
-    <script src="app.js"></script>
-</body>
+        <!-- newsletter section -->
+        <div class="newsletter">
+            <div class="newsletter_content">
+                <h1 class="newsletter-animation">Get informed with our newsletter!!</h1>
+                <p>Register to receive climbing and mountaineering news, tips and discounts weekly!</p>
+                <form action="#" class="form_wrapper">
+                    <label for="email">
+                        <input type="email" placeholder="Enter your email" id="email">
+                    </label>
+                    <button type="submit" class="button">Register!</button>
+                </form>
+            </div>
+        </div>
+        <!-- footer section -->
+        <div class="footer">
+            <div class="footer_wrapper">
+                <div class="footer_desc">
+                    <h1>Ascent Club</h1>
+                    <p>Climbing Training and Expeditions, Rjukan-Norway</p>
+                    <p id="phone">408 - 982 - 3215</p>
+                </div>
+                <div class="footer_links">
+                    <h2 class="footer_title">Contact</h2>
+                    <a href="./services.html" class="footer_link">Contact Us</a>
+                    <a href="./services.html" class="footer_link">Support</a>
+                    <a href="./services.html" class="footer_link">Sponsorships</a>
+                </div>
+            </div>
+            <div class="footer_wrapper">
+                <div class="footer_links">
+                    <h2 class="footer_title">Associate</h2>
+                    <a href="./services.html" class="footer_link">Prices</a>
+                    <a href="./services.html" class="footer_link">Plans</a>
+                    <a href="./services.html" class="footer_link">FAQ</a>
+                </div>
+                <div class="footer_links">
+                    <h2 class="footer_title">Media</h2>
+                    <a href="./services.html" class="footer_link">Instagram</a>
+                    <a href="./services.html" class="footer_link">Facebook</a>
+                    <a href="./services.html" class="footer_link">Youtube</a>
+                    <a href="./services.html" class="footer_link">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+        <script src="app.js"></script>
+    </body>
 </html>
